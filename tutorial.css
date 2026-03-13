@@ -1,0 +1,24 @@
+body{
+  background-image: url(Tutorial\ do\ jogo.png);
+    background-size: cover;
+}
+.fechar {
+    position: absolute;
+    top: 15px;
+    right: 20px;
+}
+.fechar-icon {
+    width: 237.50px;
+    height: 180.2px;
+}
+
+.fechar:hover {
+             transform: translateY(-3px) scale(1.05);
+            box-shadow: 0 8px 25px rgba(200, 60, 60, 0.5);
+        }
+        .fechar-container {
+            position: fixed;
+            bottom: 30px;
+            right: 30px;
+            z-index: 1000;
+        }
