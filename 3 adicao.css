@@ -49,9 +49,10 @@ button{
     outline: none;          
 }
 .fechar{
-  position: fixed;
-  bottom: 15px; 
+  position: absolute;
   left: 20px;
+  bottom: 15px; 
+ 
 }
 .fechar-img{
   width: 60px;

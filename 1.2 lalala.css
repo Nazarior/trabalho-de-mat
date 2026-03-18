@@ -20,6 +20,11 @@
 body {
     font-family: 'Spicy Rice', sans-serif;
 }
+button{
+    width: 80px;
+    height: 95px;
+
+}
 
 .titulo {
     width: 100%;
@@ -94,7 +99,7 @@ h1 {
    
 }
 
-.frase-principal {
+h1 {
     font-size: 60px;
 }
 
@@ -160,15 +165,41 @@ img[src*="Design_sem_nome"]:hover {
 }
 .ComoJogar{
     box-shadow: 0 8px 25px rgba(161, 49, 49, 0.5);
+    width: 510px;
+    margin-left: 30px;
     border-radius: 50px;
-    position:fixed;
+    position:static;
     bottom: 30px;
     right: 30px;
     z-index: 1000;
-    transition: transform 0.3s ease;
-    
+    transition: transform 0.3s ease;  
     }
+
 .ComoJogar:hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
+.sobreNos h1{
+    margin-left:10px;
+}
+.sobreNos{
+    box-shadow: 0 8px 25px rgba(161, 49, 49, 0.5);
+    width: 95px;
+    display: flex;
+    margin-left: 20px;
+    margin-top: 15px;
+    border-radius: 10px;
+    position:static;
+    top: 30px;
+    left: 30px;
+    z-index: 1000;
+    transition: transform 0.3s ease;
+}
+.sobreNos img{
+    width: 90px; 
+    height: 100px;
+}
+.sobreNos{
     transform: scale(1.15);
     cursor: pointer;
 }
