@@ -80,11 +80,11 @@ button{
     gap: 8px;
 }
 
-.item-operacao h3 {
+.item-operacao h3{ 
     margin: 0;
-    padding: 0;
+    padding: 0; /*preenchimento*/
     text-align: center;
-    min-height: 24px;
+    min-height: 23px;
     display: flex;
     align-items: center;
 }
@@ -179,8 +179,9 @@ img[src*="Design_sem_nome"]:hover {
     transform: scale(1.15);
     cursor: pointer;
 }
-.sobreNos h1{
-    margin-left:10px;
+.sobreNos h2{
+    margin-left:20px;
+    white-space: nowrap;
 }
 .sobreNos{
     box-shadow: 0 8px 25px rgba(161, 49, 49, 0.5);
@@ -195,13 +196,14 @@ img[src*="Design_sem_nome"]:hover {
     z-index: 1000;
     transition: transform 0.3s ease;
 }
+.sobreNos :hover{
+    transform: scale(1.15);
+    cursor: pointer;
+}
 .sobreNos img{
     width: 90px; 
     height: 100px;
 }
-.sobreNos{
-    transform: scale(1.15);
-    cursor: pointer;
-}
+  
 
     
